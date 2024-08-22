@@ -1,0 +1,93 @@
+body{
+    background: linear-gradient(90deg, rgb(188, 199, 39), rgb(216, 109, 109));
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#canvas
+{
+    background-color: #fff;
+    border: 1px solid rgb(174, 169, 169);
+    border-radius: 25px;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    cursor:-webkit-grab;
+}
+
+#colors{
+    margin-left: 300px;
+}
+
+#colors button
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 0px;
+    margin-left: 5px;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+#colors button:hover{
+    transform: scale(1.2);
+    transition: all 0.6s;
+    border: 2px solid black;
+    border-radius: 47%;
+}
+
+#black
+{
+    background: black;
+}
+#pink
+{
+    background: pink;
+}
+#red
+{
+    background: red;
+}
+#green
+{
+    background: green;
+}
+#blue
+{
+    background: blue;
+}
+#orange
+{
+    background: orange;
+}
+
+#clear{
+    width: 250px;
+    height: 50px;
+    position: relative;
+    top: 580px;
+    right: 270px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(72, 179, 173);
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+#clear:hover{
+    transform: scale(1.1);
+    transition: all 0.6s;
+    background-color: rgb(80, 197, 191);
+    color: rgb(94, 92, 92);
+}
+
+#clear:active{
+    transition: all 0.6s;
+    background-color: rgb(92, 224, 218);
+    color: rgb(134, 132, 132);
+}
